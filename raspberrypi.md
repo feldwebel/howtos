@@ -1,6 +1,4 @@
-Install Raspberry Pi imager:
-
-`snap install rpi-imager`
+Install Raspberry Pi imager: `snap install rpi-imager`
 
 Use `Ctrl-Shift-X` to set ssh & wifi, or use default ssh user pi:raspberry
 
