@@ -140,9 +140,15 @@ Apache setting is quite straightforward:
 
 `create database your_super_project;`
 
-`grant all privileges on database your_super_project to "al_web_user";`
+`grant all privileges on database your_super_project to al_web_user;`
 
-`grant all privileges ON all tables in schema public TO "al_web_user";`
+`grant all privileges ON all tables in schema public TO al_web_user;`
+
+`grant all privileges on all sequences in schema public to al_web_user;`
+
+`grant all privileges on all functions in schema public to al_web_user;`
+
+`grant create on schema public TO al_web_user;`
 
 `\q`
 
