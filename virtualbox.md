@@ -150,6 +150,8 @@ Apache setting is quite straightforward:
 
 `grant create on schema public TO al_web_user;`
 
+`alter database your_super_project owner to al_web_user;`
+
 `\q`
 
 * Fill database with dump:
